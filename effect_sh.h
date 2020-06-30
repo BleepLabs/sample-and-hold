@@ -2,6 +2,7 @@
 #define effect_sh_h_
 #include "AudioStream.h"
 #include "utility/dspinst.h"
+#include "Arduino.h"
 
 class AudioEffectSH : public AudioStream
 {
