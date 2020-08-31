@@ -3,15 +3,8 @@ This is kind of a long way around just to make a waveform produce random frequen
 but its is a method used in analog syntheseis to make the classic "computer is thinking" sound
 and is a good example of sample and hold
 
-
 */
 
-#include <Audio.h>
-#include <Wire.h>
-#include <SPI.h>
-#include <SD.h>
-
-long prev0,prev1;
   
 #include <Audio.h>
 #include <Wire.h>
@@ -29,6 +22,7 @@ AudioConnection          patchCord3(SH1, sine_fm1);
 AudioConnection          patchCord4(sine_fm1, dac1);
 
 
+long prev0,prev1;
 
 void setup(void)
 {
