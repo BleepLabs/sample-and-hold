@@ -1,10 +1,13 @@
+//rather than altering your audio.h or using my vesion of the audio library 
+// you can just include the effect and haive the files in this sketches folder
+#include <effect_sh.h> 
+
 /*
 This is kind of a long way around just to make a waveform produce random frequencies
 but its is a method used in analog syntheseis to make the classic "computer is thinking" sound
 and is a good example of sample and hold
 
 */
-
   
 #include <Audio.h>
 #include <Wire.h>
@@ -70,7 +73,3 @@ void loop(void)
 
   delay(5);
 }
-
-
-
-
