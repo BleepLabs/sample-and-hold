@@ -2,7 +2,7 @@ Sample and Hold and rate reducer, aka bit crusher, effect for the Teensy Audio l
 http://www.pjrc.com/teensy/td_libs_Audio.html
 
 Add effect_sh.cpp and effect_sh.h to the audio library director and add the line
-"#include "effect_sh.h"
+`#include "effect_sh.h"`  
 to audio.h
 
 More info in the examples
