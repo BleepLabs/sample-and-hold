@@ -1,6 +1,6 @@
+
+#include <Arduino.h>
 #include "effect_sh.h"
-
-
 
 
 void AudioEffectSH::update(void){
