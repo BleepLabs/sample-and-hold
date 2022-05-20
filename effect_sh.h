@@ -1,8 +1,8 @@
 #ifndef effect_sh_h_
 #define effect_sh_h_
-#include "AudioStream.h"
-#include "utility/dspinst.h"
+
 #include "Arduino.h"
+#include "AudioStream.h"
 
 class AudioEffectSH : public AudioStream
 {
